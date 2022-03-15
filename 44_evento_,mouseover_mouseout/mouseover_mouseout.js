@@ -13,7 +13,7 @@ title.addEventListener("mouseout", function() {
 });
 
 // afetar outro elemento com mouseover
-var subtitle = document.querySelector("#subtitle");
+var subtitle = document.querySelector(".subtitle");
 
 subtitle.addEventListener("mouseover", function() {
 
@@ -22,11 +22,9 @@ subtitle.addEventListener("mouseover", function() {
     legenda.classList.remove("hide");
 })
 
-var subtitle = document.querySelector("#subtitle");
-
 subtitle.addEventListener("mouseout", function() {
 
     var legenda = document.querySelector("#legenda");
 
-    legenda.classList.remove("hide");
+    legenda.classList.add("hide");
 })
