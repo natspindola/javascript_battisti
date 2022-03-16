@@ -1,0 +1,10 @@
+{
+    "nome": "Natalia",
+    "idade": 25,
+    "esta_trabalhando": true,
+    "detalhes_profissao": {
+        "profissao": "Técnica em Enfermagem",
+        "empresa": "Empresa X"
+    },
+    "hobbies": ["Programar", "Ler"]
+}
